@@ -1,6 +1,6 @@
 def main():
     main.numbers = [5, 20, 30, 35, 50]
-    main.insnum = int(input())
+    insnum = int(input())
     ##################################################
     # Code your program here
     ##################################################
