@@ -1,9 +1,17 @@
+def insertOne(numbers, val):
+    """
+    ########################################
+    Code Your Program here
+    Do not use 'sort' keyword
+    ########################################
+    """
+
+
 def main():
-    main.numbers = [5, 20, 30, 35, 50]
-    insnum = int(input())
-    ##################################################
-    # Code your program here
-    ##################################################
+    numbers = [5, 20, 30, 35, 50]
+    print(f'The original list value: {numbers}')
+    insertOne(numbers, 25)
+    print(f'After insertion 25: {numbers}')
 
 
 ##
